@@ -1,7 +1,7 @@
 # Predicting-Health-Outcomes-in-Bristol-using-Access-to-Greenspace-Indicators
 
 # Background
-This project aims to assess whether ordnance survey data containing average access to local greenspace, number of postcodes in a built up area and IMD rank can be used to build an accurate supervised learning model that can accurately predict if an LSOA in Bristol has a general healthy or unhealthy population. Previous studies have focused on using supervised machine learning classification models such as K nearest neighbours (Suyal and Goyal,2022) and decision trees to predict specific health conditions such as Covid-19 (Muhammad et al.,2020), however there are few studies that quantify overall general health across local communities.
+This project aims to assess whether ordnance survey data containing average access to local greenspace, number of postcodes in a built up area and IMD rank can be used to build an accurate supervised learning model that can accurately predict if an LSOA in Bristol has a general healthy or unhealthy population. Previous studies have focused on using supervised machine learning classification models such as K nearest neighbours (Suyal and Goyal,2022) and decision trees to predict specific health conditions such as Covid-19 (Muhammad et al.,2021), however there are few studies that quantify overall general health across local communities.
 
 This study sets out a clear workflow that cleans and joins data sets to answer set research questions and will create a set of health class labels based on Office for National Statistics data to train two models that will be able to classify LSOAs across Bristol into ‘healthy’ and ‘unhealthy’ areas, this information can then be used by local planning organisations and governments to quantify the importance of access to greenspace, population density and deprivation level on public health when planning new housing developments (Shaw, 2004, Fenning and Ting, 2025).
 
@@ -27,3 +27,13 @@ OS Greenspace data (csv) was obtained from the Office of National Statistics, it
 **Bristol LSOA shapefile (2021)** - Open Data Bristol. Available at: https://opendata.bristol.gov.uk/datasets/lower-layer-super-output-areas-2021-precise/about (Accessed:20/01/26)
 
 Bristol LSOA boundries (shp) where obtained from the Bristol open data portal, this data shows LSOAs as they where in 2021. This data can be joined to both health and greenspace csv data files to create a spatial visualisation of key variables by matching them to geometry that can then be plotted.  
+
+
+# References 
+Fenning, K. and Ting, H., 2025. Tools and evidence for green space investment in new town planning. Cities & Health, pp.1-7.
+
+Muhammad, L.J., Algehyne, E.A., Usman, S.S., Ahmad, A., Chakraborty, C. and Mohammed, I.A., 2021. Supervised machine learning models for prediction of COVID-19 infection using epidemiology dataset. SN computer science, 2(1), p.11.
+
+Shaw, M., 2004. Housing and public health. Annu. Rev. Public Health, 25(1), pp.397-418.
+
+Suyal, M. and Goyal, P., 2022. A review on analysis of k-nearest neighbor classification machine learning algorithms based on supervised learning. International Journal of Engineering Trends and Technology, 70(7), pp.43-48.
