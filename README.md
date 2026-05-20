@@ -5,6 +5,14 @@ This project aims to assess whether ordnance survey data containing average acce
 
 This study sets out a clear workflow that cleans and joins data sets to answer set research questions and will create a set of health class labels based on Office for National Statistics data to train two models that will be able to classify LSOAs across Bristol into ‘healthy’ and ‘unhealthy’ areas, this information can then be used by local planning organisations and governments to quantify the importance of access to greenspace, population density and deprivation level on public health when planning new housing developments (Shaw, 2004, Fenning and Ting, 2025).
 
+# Research Questions 
+***Question 1:*** Are the data variables suitable for predicting health class?
+
+***Question 2:*** Can a supervised leaning model accurately predict whether an LSOA is classed as healthy or unhealthy based on average distance to green space (m), IMD rank per LSOA and number of postcodes in a built up area?
+
+***Question 3:*** Which type of Supervised learning model is most effective a Decision tree or Knn (k nearest neighbours )?
+
+
 # Data 
 
 **Nomis 2021 Census Data (2021)** - General Health (TS037). Available at: https://www.nomisweb.co.uk/datasets/c2021ts037 (Accessed:20/01/26)
