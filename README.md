@@ -1,5 +1,4 @@
-# Predicting-Health-Outcomes-in-Bristol-using-Access-to-Greenspace-Indicators-
-Overveiw: Predicting health outcomes across Bristol output areas using access to greenspace indicators and machine learning models. 
+# Predicting-Health-Outcomes-in-Bristol-using-Access-to-Greenspace-Indicators
 
 # Background
 This project aims to assess whether ordnance survey data containing average access to local greenspace, number of postcodes in a built up area and IMD rank can be used to build an accurate supervised learning model that can accurately predict if an LSOA in Bristol has a general healthy or unhealthy population. Previous studies have focused on using supervised machine learning classification models such as K nearest neighbours (Suyal and Goyal,2022) and decision trees to predict specific health conditions such as Covid-19 (Muhammad et al.,2020), however there are few studies that quantify overall general health across local communities.
