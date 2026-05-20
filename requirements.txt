@@ -1,0 +1,26 @@
+# For data manipulation
+pandas==2.2.2
+
+numpy==2.0.2
+
+# For data visualisation
+seaborn==0.13.2
+
+matplotlib==3.10.0
+
+geopandas==1.1.3
+
+geodatasets==2026.5.1
+
+geo_northarrow==0.2.0a0
+
+contextily==1.7.0
+
+matplotlib-scalebar==0.9.0
+
+
+# Analysis 
+scipy==1.16.3
+
+scikit-learn==1.6.1
+
