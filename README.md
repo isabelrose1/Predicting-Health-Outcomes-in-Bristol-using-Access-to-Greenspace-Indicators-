@@ -12,7 +12,7 @@ This study sets out a clear workflow that cleans and joins data sets to answer s
 
 ***Question 3:*** Which type of Supervised learning model is most effective a Decision tree or Knn (k nearest neighbours )?
 
-# Overveiw
+# Notebook Structure Overveiw 
 
 *  **Data** 
 *  **Description, Statistics and wrangling** 
